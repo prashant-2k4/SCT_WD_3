@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: url(tic.webp);
     display: flex;
     align-items: center;
     justify-content: center;
