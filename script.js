@@ -36,6 +36,7 @@ function initializeGame() {
     board = Array(9).fill('');
     currentPlayer = playerX;
     isGameActive = true;
+    statusDisplay.style.color = 'white';
     statusDisplay.textContent = `Player ${currentPlayer}'s turn`;
     cells.forEach(cell => cell.textContent = '');
 }
